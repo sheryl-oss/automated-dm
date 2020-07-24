@@ -23,7 +23,7 @@ var args = process.argv.slice(2);
 	   				console.log('found-something')
 	   				var userId = await ig.user.getIdByUsername(messages[i].thread_title)
 	   				var thread = ig.entity.directThread([userId.toString()])
-	   				await thread.broadcastText('message only if your mum needs a shag')
+	   				await thread.broadcastText('insert-message-here')
 	   			}
 	   		}	
 	   	}, 60000)	
